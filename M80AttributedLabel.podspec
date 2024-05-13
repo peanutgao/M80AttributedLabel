@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'M80AttributedLabel'
-  s.version = '1.9.9'
+  s.version = '1.9.10'
   s.authors = {'Xiang Wangfeng' => 'xiangwangfeng@gmail.com'}
   s.homepage = 'https://github.com/xiangwangfeng/M80AttributedLabel/'
   s.summary = 'Another attributed label using CoreText'
@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'CoreText', 'CoreGraphics', 'QuartzCore'
   s.source_files = 'M80AttributedLabel/*.{h,m}'
+  s.resource_bundles = {'M80AttributedLabel' => ['M80AttributedLabel/PrivacyInfo.xcprivacy']}
 end
